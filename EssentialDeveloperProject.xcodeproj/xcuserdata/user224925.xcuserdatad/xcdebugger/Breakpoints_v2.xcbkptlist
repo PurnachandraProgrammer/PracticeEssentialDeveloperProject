@@ -7,47 +7,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4E1A8C42-1A3B-47CE-A4EC-AE4BA7519F70"
+            uuid = "0CA4A7EE-849E-4462-8C2D-B27C5C0D55E4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EssentialDeveloperProject/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F18FA5C6-E32A-4B16-B567-326EAFABB343"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EssentialDeveloperProjectTests/UserTableVCTests.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "test_viewDidLoad_rendersUsersFromAPI()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E7AE1450-37FC-4513-8A2C-F0C0CC9645A6"
+            uuid = "63520992-4F47-467D-9B36-1735C1310BD4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EssentialDeveloperProject/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "getUsersFromSingleton()"
             landmarkType = "7">
          </BreakpointContent>
@@ -55,65 +39,193 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0A402CFB-11C9-4A0A-B548-D97F1D1786F6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EssentialDeveloperProject/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "getUsersFromSingleton()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B9AA3D3C-2EEB-48C1-ACF6-5DDD9D631B31"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EssentialDeveloperProject/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "getUsersFromSingleton()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1BFD5C45-4F27-43F0-B861-B8D6DF26837E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EssentialDeveloperProject/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "getUsersFromSingleton()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AFC31A69-2253-42A7-B603-7139B578372F"
+            uuid = "FC7C62C1-9B96-4B39-87A6-E85951B2B5D6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EssentialDeveloperProject/ApiManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
             landmarkName = "getUsers(completion:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A8CB10A-0130-4A04-87BA-24E19B26554E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialDeveloperProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "init(getUsers:usersChanged:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9E168EC-B6B2-4DAE-9E95-783B29AAB2B0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialDeveloperProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "init(user:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C175E4BC-68C8-4A18-ACEF-33EF14CBB4C9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialDeveloperProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "getUsers(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C175E4BC-68C8-4A18-ACEF-33EF14CBB4C9 - 450600490d342a80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;EssentialDeveloperProject.User&gt;, Swift.Error&gt;) -&gt; () in static EssentialDeveloperProject.UserApiAdapter.getUsers(completion: (Swift.Result&lt;Swift.Array&lt;EssentialDeveloperProject.User&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EssentialDeveloperProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user224925/Documents/PracticeEssentialDeveloperProject/EssentialDeveloperProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "C175E4BC-68C8-4A18-ACEF-33EF14CBB4C9 - f618069609ebf796"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;EssentialDeveloperProject.User&gt;, Swift.Error&gt;) -&gt; () in static EssentialDeveloperProject.UserApiAdapter.getUsers(completion: (Swift.Result&lt;Swift.Array&lt;EssentialDeveloperProject.User&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EssentialDeveloperProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user224925/Documents/PracticeEssentialDeveloperProject/EssentialDeveloperProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D840A7C-6B93-48D5-9083-262EBE12AFA8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialDeveloperProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "getUsers(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3D840A7C-6B93-48D5-9083-262EBE12AFA8 - 6520e8e1ad70982e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static EssentialDeveloperProject.UserApiAdapter.getUsers(completion: (Swift.Result&lt;Swift.Array&lt;EssentialDeveloperProject.User&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EssentialDeveloperProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user224925/Documents/PracticeEssentialDeveloperProject/EssentialDeveloperProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "3D840A7C-6B93-48D5-9083-262EBE12AFA8 - 450600490d342a80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;EssentialDeveloperProject.User&gt;, Swift.Error&gt;) -&gt; () in static EssentialDeveloperProject.UserApiAdapter.getUsers(completion: (Swift.Result&lt;Swift.Array&lt;EssentialDeveloperProject.User&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "EssentialDeveloperProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user224925/Documents/PracticeEssentialDeveloperProject/EssentialDeveloperProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "216">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3A6A9CC-F55E-49E2-A76A-0EFCCE9428A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialDeveloperProject/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getUsersFromSingleton()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E3A6A9CC-F55E-49E2-A76A-0EFCCE9428A7 - 448848ba2fe473d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EssentialDeveloperProject.ViewController.getUsersFromSingleton() -&gt; ()"
+                  moduleName = "EssentialDeveloperProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user224925/Documents/PracticeEssentialDeveloperProject/EssentialDeveloperProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "E3A6A9CC-F55E-49E2-A76A-0EFCCE9428A7 - b6918bc38e8db3c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;EssentialDeveloperProject.UserViewModel&gt;) -&gt; () in EssentialDeveloperProject.ViewController.getUsersFromSingleton() -&gt; ()"
+                  moduleName = "EssentialDeveloperProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user224925/Documents/PracticeEssentialDeveloperProject/EssentialDeveloperProject/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

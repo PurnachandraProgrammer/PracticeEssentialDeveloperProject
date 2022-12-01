@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F376DC129362EDF0082F583 /* UserTableVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F376DC029362EDF0082F583 /* UserTableVCTests.swift */; };
+		1F7029902938E5F20082C4D3 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F70298F2938E5F20082C4D3 /* UserCell.swift */; };
 		1F855DBC2935E88800B0DD3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F855DBB2935E88800B0DD3B /* AppDelegate.swift */; };
 		1F855DBE2935E88800B0DD3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F855DBD2935E88800B0DD3B /* SceneDelegate.swift */; };
 		1F855DC02935E88800B0DD3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F855DBF2935E88800B0DD3B /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		1F376DC029362EDF0082F583 /* UserTableVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableVCTests.swift; sourceTree = "<group>"; };
+		1F70298F2938E5F20082C4D3 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		1F855DB82935E88800B0DD3B /* EssentialDeveloperProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialDeveloperProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F855DBB2935E88800B0DD3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F855DBD2935E88800B0DD3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				1F855DC42935E88900B0DD3B /* Assets.xcassets */,
 				1F855DC62935E88900B0DD3B /* LaunchScreen.storyboard */,
 				1F855DC92935E88900B0DD3B /* Info.plist */,
+				1F70298F2938E5F20082C4D3 /* UserCell.swift */,
 			);
 			path = EssentialDeveloperProject;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			files = (
 				1FAD25D729366EF800F8C625 /* ApiManager.swift in Sources */,
 				1F855DC02935E88800B0DD3B /* ViewController.swift in Sources */,
+				1F7029902938E5F20082C4D3 /* UserCell.swift in Sources */,
 				1F855DBC2935E88800B0DD3B /* AppDelegate.swift in Sources */,
 				1FAD25D929366F0400F8C625 /* User.swift in Sources */,
 				1F855DBE2935E88800B0DD3B /* SceneDelegate.swift in Sources */,

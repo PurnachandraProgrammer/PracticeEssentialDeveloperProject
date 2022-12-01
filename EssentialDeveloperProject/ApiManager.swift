@@ -1,11 +1,4 @@
 import Foundation
-
-protocol Api {
-    func getUsers(completion: @escaping (Result<[User],Error>) -> Void )
-}
-
-extension ApiManager : Api {}
-
 class ApiManager {
     
     static let shared = ApiManager()

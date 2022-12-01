@@ -36,19 +36,36 @@ final class UserTableVCTests: XCTestCase {
         let sut = try makeSUT()
         sut.loadViewIfNeeded()
         
-        XCTAssertEqual(sut.viewControllerTableView.numberOfRows(inSection: 0), 0)
+        XCTAssertEqual(sut.numberOfUsers(), 0)
     }
     
     func test_viewDidLoad_rendersUsersFromAPI() throws {
         
         let sut = try makeSUT()
+        sut.getUsers = { completion in completion(.success(
+            [makeUser(name: "User 0", email: "Email 0"),
+            makeUser(name: "User 1", email: "Email 1"),
+            makeUser(name: "User 2", email: "Email 2")]))}
         sut.loadViewIfNeeded()
         
-        let exp = expectation(description: "Wait for API")
-        exp.isInverted = true
-        wait(for: [exp], timeout: 3)
+        XCTAssertEqual(sut.numberOfUsers(), 3)
+        XCTAssertEqual(sut.name(atRow: 0), "User 0")
+        XCTAssertEqual(sut.email(atRow: 0), "Email 0")
+    }
+    
+    func test_viewDidLoad_whenUserNameStartsWithC_highlightsCell () throws {
         
-        XCTAssertEqual(sut.viewControllerTableView.numberOfRows(inSection: 0), 10)
+        let sut = try makeSUT()
+        sut.getUsers = { completion in completion(.success(
+            [makeUser(name: "C User 0", email: "Email 0"),
+            makeUser(name: "User C 1", email: "Email 1"),
+            makeUser(name: "User 2", email: "Email 2")]))}
+        sut.loadViewIfNeeded()
+        
+        XCTAssertEqual(sut.numberOfUsers(), 3)
+        
+        
+        
     }
     
     private func makeSUT() throws -> ViewController {
@@ -60,17 +77,43 @@ final class UserTableVCTests: XCTestCase {
         let navigation = try XCTUnwrap(initialVC as? UINavigationController)
         
         let sut = try XCTUnwrap(navigation.topViewController as? ViewController)
-        sut.api = ApiManagerStub()
+        sut.getUsers = { _ in }
         return sut
     }
  
 }
 
-private class ApiManagerStub : ApiManager {
-   
-    override init() {
-    }
-    override func getUsers(completion: @escaping (Result<[User], Error>) -> Void) {
-        
-    }
+private func makeUser(name:String,email:String) -> User {
+    User(id: 0, name: name, email: email)
 }
+
+
+private extension ViewController {
+    
+    func numberOfUsers() -> Int {
+        viewControllerTableView.numberOfRows(inSection: usersSection)
+    }
+    
+    func name(atRow row: Int) -> String? {
+        let cell = userCell(atRow: row)
+        return cell?.nameLabel.text
+    }
+    
+    func email (atRow row: Int) -> String? {
+        let cell = userCell(atRow: row)
+        return cell?.emailLabel.text
+    }
+    
+    func isHighlighted(atRow row:Int) -> Bool {
+        userCell(atRow: row)?.backgroundColor == .green
+    }
+    
+    func userCell(atRow row:Int) -> UserCell? {
+        let ds = viewControllerTableView.dataSource
+        let indexPath = IndexPath(row: row, section: usersSection)
+        return ds?.tableView(viewControllerTableView, cellForRowAt: indexPath) as? UserCell
+    }
+    
+    private var usersSection: Int { 0 }
+}
+
