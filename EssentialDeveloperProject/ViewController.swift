@@ -30,7 +30,6 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
     
     // This property injection used to inject another variable, may be we can use it for testing purpose.
     var getUsers:GetUsers = UserApiAdapter.getUsers
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Users"
@@ -38,6 +37,7 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
         // Do any additional setup after loading the view.
         configureTableView()
         getUsersFromSingleton()
+    
     }
 
     private func configureTableView() {
@@ -51,7 +51,7 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
             self.users = users
             self.viewControllerTableView.reloadData()
         })
- 
+    
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
